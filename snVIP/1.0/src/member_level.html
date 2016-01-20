@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>苏宁会员联盟_会员等级 - 苏宁易购</title>
+    <meta name="keywords" content="苏宁会员联盟,会员等级,会员中心,云钻兑换,优惠券,促销活动"/>
+    <meta name="description" content="苏宁会员等级频道,详细介绍会员成长进度,升级方法,权益与等级,上苏宁会员联盟,给你全新的价值体验！"/>
+    <script>
+        var sn = sn || {}
+    </script>
+    
+    <!-- 引入全站公用资源文件 -->
+    <!--#include file="/include/resources.shtml"-->
+
+    <!-- build:css ./assets/css/vipcommon.css -->
+    <link rel="stylesheet" href="css/vipcommon.scss" />
+    <!-- endbuild -->
+
+    <!-- build:css ./assets/css/vipSuning.css -->
+    <link rel="stylesheet" href="css/vipSuning.scss" />
+    <!-- endbuild -->
+
+    <!-- build:css ./assets/css/vipNew.css -->
+    <link rel="stylesheet" href="css/vipNew.scss" />
+    <!-- endbuild -->
+
+    <!--[if IE 6]>
+    <script type="text/javascript">
+        DD_belatedPNG.fix(".header .logo img");
+    </script>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- 此处引入主站工具栏-->
+    <!--#include virtual="/include/toolbar.shtml"-->
+
+    <!-- 顶部悬浮导航 [[ -->
+    <!--#include virtual="_fixed-nav.html"-->
+    <!-- 顶部悬浮导航 ]] -->
+
+    <div class="vip-wrapper wrapper-bottom"><!--底层背景-->
+        <div class="vip-wrapper wrapper-up"><!--上层背景-->
+
+            <!--云钻头部[[-->
+            <!--#include virtual="_header.html"-->
+            <!--]]云钻头部-->
+
+            <!-- 二级页-积分换购 [[ -->
+            <div class="second-wrapper clearfix member-level">
+                <!-- 二级页-左侧栏 [[ -->
+                <div class="filllayer">
+                    <div class="left-side left-side-mt J-left-side">
+                        <div class="left-menu J-leftMenu">
+                            <ul class="menu-item">
+                                <li class="on clearfix">
+                                    <i class="item-icon item-icon1"></i>
+                                    <i class="point-icon"></i>
+                                    <span>我的成长进度</span>
+                                </li>
+                                <li>
+                                    <i class="item-icon item-icon2"></i>
+                                    <i class="point-icon"></i>
+                                    <span>权益和等级</span>
+                                </li>
+                                <li>
+                                    <i class="item-icon item-icon3"></i>
+                                    <i class="point-icon"></i>
+                                    <span>升级方法</span>
+                                </li>
+                                <li>
+                                    <i class="item-icon item-icon4"></i>
+                                    <i class="point-icon"></i>
+                                    <span>成长详情</span>
+                                </li>
+                            </ul>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="product-list">
+                    <!-- 面包屑 [[ -->
+                    <div class="product-list-hd product-list-hd-first">
+                        <h3 class="member-title">
+                            <span>首页</span><i>&gt;</i><em>会员等级</em>
+                        </h3>
+                    </div>
+                    <!-- 面包屑 ]] -->
+                    <!-- 成长进度 [[ -->
+                    <div class="ml-content ml-grow">
+                        <!-- 标题 -->
+                        <h3 class="ml-title">我的成长进度</h3>
+                        <!-- 内容 -->
+                        <div class="grow-schedule">
+                            <!-- 成长状态 [[ -->
+                            <div class="grow-status">
+                                <img src="assets/images/person_bg.png" class="gs-person"/>
+                                <img src="assets/images/level1_l.png" class="gs-lev"/>
+                                <div class="gs-value">
+                                    <i></i>
+                                    <p>我的成长值：<a href="javascript:void(0);" class="J-value">1500</a> ，已超过20%用户</p>
+                                    <p>我的购买天数：<span href="javascript:void(0);">4</span> 天</p>
+                                </div>
+                            </div>
+                            <!-- 成长状态 ]] -->
+                            <!-- 成长进度条 [[ -->
+                            <div class="grow-graph">
+                                <!-- 成长值 [[ -->
+                                <table class="grow-values">
+                                    <tbody>
+                                        <tr>
+                                            <td width="115" ></td>
+                                            <td width="259">0</td>
+                                            <td width="275">2000</td>
+                                            <td width="71">4000</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="gs-value-message">成长值：</td>
+                                            <td colspan="3" class="value-process-wrap">
+                                                <div class="value-process" data-value="400">
+                                                    <i class="process-point1 done"></i>
+                                                    <i class="process-point2"></i>
+                                                    <i class="process-point3"></i>
+                                                    <div class="value-done J-done" style="width:0;"></div>
+                                                </div>
+                                                <div class="value-pop J-pop" style="top:-60px;">
+                                                    <i style="left:65px;"></i>
+                                                    <span>距离升级还需成长值 500</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- 成长值 ]] -->
+                                <!-- 成长天数 [[ -->
+                                <!-- 未够物-->
+                                <!-- <table class="grow-days">
+                                    <tbody>
+                                        <tr height="60">
+                                            <td></td>
+                                            <td class="lev-icon levl1">
+                                                <i></i>
+                                            </td>
+                                            <td class="lev-icon levl2">
+                                                <i></i>
+                                            </td>
+                                            <td class="lev-icon levl3">
+                                                <i></i>
+                                            </td>
+                                            <td class="lev-icon levl4">
+                                                <i></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="gs-days-message">购买天数：</td>
+                                            <td colspan="4" class="days-process-wrap">
+                                                <div class="days-process" data-value="400">
+                                                    <i class="process-point1 done"></i>
+                                                    <i class="process-point2"></i>
+                                                    <i class="process-point3"></i>
+                                                    <i class="process-point4"></i>
+                                                    <div class="days-done J-done" style="width:0;"></div>
+                                                </div>
+                                                <div class="days-pop J-pop" style="top:51px;">
+                                                    <i style="left:65px;"></i>
+                                                    <span>距离升级还需成长值 500</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="115"></td>
+                                            <td width="84">0</td>
+                                            <td width="185">1</td>
+                                            <td width="281">3</td>
+                                            <td width="55">6</td>
+                                        </tr>
+                                    </tbody>
+                                </table> -->
+                                <!-- 已购物 -->
+                                <table class="grow-days">
+                                    <tbody>
+                                        <tr height="60">
+                                            <td></td>
+                                            <td class="lev-icon levl2">
+                                                <i style="left:-7px;"></i>
+                                            </td>
+                                            <td class="lev-icon"></td>
+                                            <td class="lev-icon levl3">
+                                                <i></i>
+                                            </td>
+                                            <td class="lev-icon levl4">
+                                                <i></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="gs-days-message">购买天数：</td>
+                                            <td colspan="4" class="days-process-wrap">
+                                                <div class="days-process" data-value="400">
+                                                    <i class="process-point1 done"></i>
+                                                    <i class="process-point3"></i>
+                                                    <i class="process-point4"></i>
+                                                    <div class="days-done J-done" style="width:0;"></div>
+                                                </div>
+                                                <div class="days-pop J-pop" style="top:51px;">
+                                                    <i style="left:65px;"></i>
+                                                    <span>距离升级还需成长值 500</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="115"></td>
+                                            <td width="84">1</td>
+                                            <td width="185"></td>
+                                            <td width="281">3</td>
+                                            <td width="55">6</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- 成长天数 ]] -->
+                            </div>
+                            <!-- 成长进度条 ]] -->
+                            <!-- 介绍 [[ -->
+                            <div class="grow-intro">
+                                <h3>会员等级介绍：</h3>
+                                <p>
+                                    <i>1. </i>
+                                    <span>苏宁会员等级分为新人、V1、V2、V3四个等级，以成长值和购买天数共同做为升级依据。</span>
+                                </p>
+                                <p>
+                                    <i>2. </i>
+                                    <span>成长值为苏宁会员购物、评价、登录等所回馈的经验累积值，成长值越高且购买天数越多会员等级越高，可享受到的会员特权越大，现在就<a href="#">去了解成长值。</a></span>
+                                </p>
+                                <p>注：自然日内产生至少1笔实际付款金额不低于10元的订单计算为1个购物天数。</p>
+                            </div>
+                            <!-- 介绍 ]] -->
+                        </div>
+                    </div>
+                    <!-- 成长进度 ]] -->
+                    <!-- 权益和等级 [[ -->
+                    <div class="ml-content ml-powlev no-mgt">
+                        <!-- 标题 -->
+                        <h3 class="ml-title">权益和等级</h3>
+                        <!-- 内容 [[ -->
+                        <div class="power-level">
+                            <!-- 权益等级表格 [[ -->
+                            <table class="pl-graph">
+                                <thead class="pl-title">
+                                    <tr>
+                                        <td>权益类型</td>
+                                        <td>新人会员</td>
+                                        <td>V1会员</td>
+                                        <td>V2会员</td>
+                                        <td>V3会员</td>
+                                    </tr>
+                                </thead>
+                                <tbody  class="pl-cont">
+                                    <tr>
+                                        <td>
+                                            <a href="#">百变云钻</a>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">生日礼金</a>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">优先抢购</a>
+                                        </td>
+                                        <td>
+                                            <span>— —</span>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">免费保养</a>
+                                        </td>
+                                        <td>
+                                            <span>— —</span>
+                                        </td>
+                                        <td>
+                                            <span>— —</span>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">免邮服务</a>
+                                        </td>
+                                        <td>
+                                            <span>— —</span>
+                                        </td>
+                                        <td>
+                                            <span>— —</span>
+                                        </td>
+                                        <td>
+                                            <span>— —</span>
+                                        </td>
+                                        <td>
+                                            <i></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- 权益等级表格 ]] -->
+                            <!-- 会员等级状态 [[ -->
+                            <!-- 等级pl-level1 pl-level2 pl-level3 pl-level4-->
+                            <div class="pl-level-status pl-level1">
+                                <img src="assets/images/weibo.png" width="36" height="36" />
+                            </div>
+                            <!-- 会员等级状态 ]] -->
+                        </div>
+                        <!-- 内容 ]] -->
+                    </div>
+                    <!-- 权益和等级 ]] -->
+                    <!-- 升级方法 [[ -->
+                    <div class="ml-content ml-upgrade no-mgt">
+                        <!-- 标题 -->
+                        <h3 class="ml-title">升级方法</h3>
+                        <!-- 内容 [[ -->
+                        <div class="upgrade-ways">
+                            <!-- 升级方法表格 [[ -->
+                            <table class="uw-graph">
+                                <thead class="uw-title">
+                                    <tr>
+                                        <td width="158">场景</td>
+                                        <td width="425">获取规则</td>
+                                        <td width="128">成长数值</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="uw-cont">
+                                    <tr>
+                                        <td rowspan="2">
+                                            <div class="uw-option">
+                                                <i class="uw-shop"></i>
+                                                <p>购物</p>
+                                            </div>
+                                        </td>
+                                        <td class="uw-mtext">实物类商品按实际付款金额1元返1个成长值，订单完成后奖励</td>
+                                        <td>等于实际付款金额</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="uw-mtext">充值、卡券、点卡、彩票，机票、酒店、门票、租车、旅行、美食电影团购等虚拟、服务类商品按每笔订单奖励成长值</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="uw-option">
+                                                <i class="uw-count"></i>
+                                                <p>月度购买高频次</p>
+                                            </div>
+                                        </td>
+                                        <td class="uw-mtext">自然月度内达到3个购物天数奖励</td>
+                                        <td>100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="uw-option">
+                                                <i class="uw-evaluate"></i>
+                                                <p>购物评价</p>
+                                            </div>
+                                        </td>
+                                        <td class="uw-mtext">评价成功且经审核通过</td>
+                                        <td>15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="uw-option">
+                                                <i class="uw-login"></i>
+                                                <p>首次登录</p>
+                                            </div>
+                                        </td>
+                                        <td class="uw-mtext">每日首次登录发放，重复登录不再奖励</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="uw-option">
+                                                <i class="uw-safe"></i>
+                                                <p>手机邮箱双验证</p>
+                                            </div>
+                                        </td>
+                                        <td class="uw-mtext">首次完成手机邮箱双验证</td>
+                                        <td>10</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- 升级方法表格 ]] -->
+                            <!-- 介绍 [[ -->
+                            <div class="uw-intro">
+                                <h3>不奖励成长值的情况：</h3>
+                                <p>
+                                    <i>1. </i>
+                                    <span>商品金额低于5元不奖励成长值，商品单价低于10元，评价不送成长值；</span>
+                                </p>
+                                <p>
+                                    <i>2. </i>
+                                    <span>发生退货或删除评价晒单，扣除当时获得的成长值。</span>
+                                </p>
+                            </div>
+                            <!-- 介绍 ]] -->
+                        </div>
+                        <!-- 内容 ]] -->
+                    </div>
+                    <!-- 升级方法 ]] -->
+                    <div class="ml-content ml-upgrade no-mgt">
+                        <!-- 标题 -->
+                        <h3 class="ml-title">成长详情</h3>
+                        <!-- 内容 [[ -->
+                        <div class="grow-detail">
+                            <!-- tab [[ -->
+                            <ul class="gd-tab clearfix">
+                                <li class="point-detail gd-selected">我的等级积分详情</li>
+                                <li class="gd-order">我的成长记录</li>
+                            </ul>
+                            <!-- tab ]] -->
+                            <!-- 积分详情 [[ -->
+                            <div class="gd-cont pd-cont clearfix" style="display:block;">
+                                <select>
+                                    <option>最近一年的记录</option>
+                                </select>
+                                <table class="gd-graph">
+                                    <thead class="gd-title">
+                                        <tr>
+                                            <td>来源</td>
+                                            <td>变化量</td>
+                                            <td>变化日期</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="gd-main">
+                                        <tr>
+                                            <td>签到</td>
+                                            <td>12</td>
+                                            <td>2014-07-02</td>
+                                        </tr>
+                                        <tr class="gd-even">
+                                            <td>签到</td>
+                                            <td>12</td>
+                                            <td>2014-07-02</td>
+                                        </tr>
+                                        <tr>
+                                            <td>签到</td>
+                                            <td>12</td>
+                                            <td>2014-07-02</td>
+                                        </tr>
+                                        <tr class="gd-even">
+                                            <td>签到</td>
+                                            <td>12</td>
+                                            <td>2014-07-02</td>
+                                        </tr>
+                                        <tr>
+                                            <td>签到</td>
+                                            <td>12</td>
+                                            <td>2014-07-02</td>
+                                        </tr>
+                                        <tr class="gd-even">
+                                            <td>签到</td>
+                                            <td>12</td>
+                                            <td>2014-07-02</td>
+                                        </tr>
+                                        <tr>
+                                            <td>签到</td>
+                                            <td>12</td>
+                                            <td>2014-07-02</td>
+                                        </tr>
+                                        <tr class="gd-even">
+                                            <td>签到</td>
+                                            <td>12</td>
+                                            <td>2014-07-02</td>
+                                        </tr>
+                                        <tr>
+                                            <td>签到</td>
+                                            <td>12</td>
+                                            <td>2014-07-02</td>
+                                        </tr>
+                                        <tr class="gd-even">
+                                            <td>签到</td>
+                                            <td>12</td>
+                                            <td>2014-07-02</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="gd-pages clearfix">
+                                    <span><em>1</em>/<em>5</em></span>
+                                    <input type="text"/>
+                                    <a href="javascript:void(0);">下一页</a>
+                                </div>
+                            </div>
+                            <!-- 积分详情 ]] -->
+                            <!-- 成长记录 [[ -->
+                            <div class="gd-cont go-cont clearfix">
+                                <select>
+                                    <option>最近一年的记录</option>
+                                </select>
+                                <table class="gd-graph">
+                                    <thead class="gd-title">
+                                        <tr>
+                                            <td>时间</td>
+                                            <td>成长记录</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="gd-main">
+                                        <tr>
+                                            <td>2014-04-23  09:23:45</td>
+                                            <td>手机签到</td>
+                                        </tr>
+                                        <tr class="gd-even">
+                                            <td>2014-04-23  09:23:45</td>
+                                            <td>注册后获得积分</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2014-04-23  09:23:45</td>
+                                            <td>手机签到</td>
+                                        </tr>
+                                        <tr class="gd-even">
+                                            <td>2014-04-23  09:23:45</td>
+                                            <td>注册后获得积分</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2014-04-23  09:23:45</td>
+                                            <td>手机签到</td>
+                                        </tr>
+                                        <tr class="gd-even">
+                                            <td>2014-04-23  09:23:45</td>
+                                            <td>注册后获得积分</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2014-04-23  09:23:45</td>
+                                            <td>手机签到</td>
+                                        </tr>
+                                        <tr class="gd-even">
+                                            <td>2014-04-23  09:23:45</td>
+                                            <td>注册后获得积分</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2014-04-23  09:23:45</td>
+                                            <td>手机签到</td>
+                                        </tr>
+                                        <tr class="gd-even">
+                                            <td>2014-04-23  09:23:45</td>
+                                            <td>注册后获得积分</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="gd-pages clearfix">
+                                    <span><em>1</em>/<em>5</em></span>
+                                    <input type="text"/>
+                                    <a href="javascript:void(0);">下一页</a>
+                                </div>
+                            </div>
+                            <!-- 成长记录 ]] -->
+                        </div>
+                        <!-- 内容 ]] -->
+                    </div>
+                </div>
+            </div>
+            <!-- 二级页-积分换购 ]] -->
+
+            <!-- 此处引入公用尾部 -->
+            <!--#include virtual="/include/footer.shtml"-->
+        </div>
+    </div>
+
+    <!-- 返回顶部 [[ -->
+    <div class="go-top"><a href="javascript:void(0);" title="返回顶部"><i></i></a></div>
+    <!-- 返回顶部 ]] -->
+
+    <!-- 引入项目js资源文件,并配置构建地址演示 -->
+    <!-- build:js ./assets/js/home.js -->
+    <script type="text/javascript" src="js/home.js"></script>
+    <!-- endbuild -->
+    <!-- build:js ./assets/js/vipNew.js -->
+    <script type="text/javascript" src="js/vipNew.js"></script>
+    <!-- endbuild -->
+    <script>
+        vipNew.fnMemberLevel();
+    </script>
+</body>
+</html>

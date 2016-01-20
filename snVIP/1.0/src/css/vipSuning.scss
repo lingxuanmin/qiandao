@@ -1,0 +1,261 @@
+/* 二级页面 */
+.second-wrapper{width:990px;margin:0 auto;padding-bottom:50px;}
+/* 二级页面-左侧栏 */
+.left-side{float:left;width:215px;}
+.left-side-fixed{position:fixed;z-index:90;top:141px;}
+.left-side-mt{margin-top:51px;padding-top:10px;}
+.left-side-mt-fixed{position:fixed;z-index:90;top:81px;}
+.left-menu{position:relative;width:215px;}
+.left-menu-fixed{position:fixed;z-index:90;top:141px;}
+.left-menu .menu-item{background:url(images/bg-leftMenu.jpg) repeat;}
+.left-menu-book .menu-item, .left-menu-zhaoshang .menu-item{background:none;}
+.left-menu .menu-item li{position:relative;z-index:10;height:40px;font-size:0;overflow:hidden;}
+.left-menu-book .menu-item li, .left-menu-zhaoshang .menu-item li{height:auto;border-bottom:1px solid #f0f0f0;zoom:1;}
+.left-menu-book .menu-item li:after, .left-menu-zhaoshang .menu-item li:after{display:block;content:'.';height:0;clear:both;visibility:hidden;}
+.left-menu .menu-item li a{position:absolute;z-index:10;width:135px;height:40px;padding:0 40px;color:#f8f8f8;font:14px/40px 'microsoft yahei';overflow:hidden;}
+.left-menu .menu-item li a:hover{color:#f8f8f8;}
+.left-menu-book .menu-item li a, .left-menu-zhaoshang .menu-item li a{position:relative;display:block;background:#fff;color:#333;}
+.left-menu-zhaoshang .menu-item li a{height:40px;line-height:40px;}
+.left-menu-book .menu-item li.on a, .left-menu-zhaoshang .menu-item li.on a, .left-menu-book .menu-item li a:hover, .left-menu-zhaoshang .menu-item li a:hover{background:#4c88f3;color:#fff;}
+.left-menu .menu-item li a b{font-size:18px;}
+.left-menu-zhaoshang .menu-item li a b{font-size:16px;}
+.left-menu-book .menu-item li a b, .left-menu-zhaoshang .menu-item li a b{font-weight:normal;}
+.left-menu-book .menu-item li.on a b, .left-menu-zhaoshang .menu-item li.on a b{font-weight:bold;}
+.left-menu .menu-item li .icon{position:absolute;top:13px;left:20px;width:13px;height:13px;background:url(images/vipSuning.png) -76px -17px no-repeat;overflow:hidden;}
+.left-menu-zhaoshang .menu-item li .icon{top:14px;}
+.left-menu .menu-item li.on .icon, .left-menu .menu-item li a:hover .icon{background-position:-90px -17px;}
+.left-menu .menu-item li i{display:none;position:absolute;top:11px;right:20px;width:11px;height:17px;background:url(images/vipSuning.png) 0 0 no-repeat;overflow:hidden;}
+.left-menu-zhaoshang .menu-item li i{top:12px;}
+.left-menu .menu-item li.on i{display:block;_display:none;}
+.left-menu .menu-item .menu-second{display:none;padding:10px 0 10px 10px;background:#9dbdf8;}
+.left-menu .menu-item li.on .menu-second{display:block;}
+.left-menu .menu-item .menu-second a{display:inline;float:left;width:95px;height:36px;margin:0 5px 5px 0;padding:0;text-align:center;color:#fff;font:12px/36px simsun;}
+.left-menu-zhaoshang .menu-item .menu-second a{width:195px;}
+.left-menu .menu-item .menu-second a:hover, .left-menu .menu-item .menu-second a.on{background:#2767d9;}
+.left-menu .slider{display:none;position:absolute;z-index:5;top:0;width:215px;height:40px;background:#f90;}
+.left-intro{position:relative;z-index:5;margin-top:10px;padding:15px 15px 20px;background:#fff;}
+.left-intro-hd{height:35px;}
+.left-intro-hd h4{float:left;width:150px;height:27px;font:bold 18px/1.5 'microsoft yahei';overflow:hidden;}
+.left-intro-hd h4 i{float:left;width:4px;height:18px;margin-top:5px;margin-right:6px;background:#fa0;overflow:hidden;}
+.left-intro-hd .download-ewm{display:inline;position:relative;z-index:5;height:30px;float:right;}
+.left-intro-hd .download-ewm .icon{display:block;width:16px;height:16px;margin-top:6px;background:url(images/vipSuning.png) -95px -34px;overflow:hidden;}
+.left-intro-hd .download-ewm .ewm-box{display:none;position:absolute;left:-112px;top:40px;width:182px;height:250px;padding:25px 25px 0;border:1px solid #e5e5e5;background:#fff;}
+.left-intro-hd .download-ewm-on .ewm-box{display:block;}
+.left-intro-hd .download-ewm .ewm-box .arrow{position:absolute;left:105px;top:-11px;width:25px;height:11px;background:url(images/vipSuning.png) -108px 0;overflow:hidden;}
+.left-intro-hd .download-ewm .ewm-box img{display:block;width:182px;height:190px;}
+.left-intro-hd .download-ewm .ewm-box p{margin-top:5px;color:#999;font-family:simsun;}
+.left-intro-box p{position:relative;margin-top:2px;line-height:2;text-indent:2em;}
+.left-intro-box p i{position:absolute;top:6px;*top:0;left:0;_left:-24px;width:14px;height:14px;background:#f60;line-height:14px;text-align:center;text-indent:0;color:#fff;font-size:14px;overflow:hidden;}
+.left-intro-box p b{color:#f60;}
+.left-intro-box .app-download{width:186px;margin-top:5px;margin-right:-1px;}
+.left-intro-box .app-download li{display:inline;float:left;width:92px;height:92px;margin-right:1px;margin-bottom:1px;background:#f5cd1f;}
+.left-intro-box .app-download li a{display:block;width:92px;height:92px;color:#fff;text-align:center;cursor:pointer;overflow:hidden;}
+.left-intro-box .app-download li .icon{display:block;width:60px;height:50px;margin:14px 15px 3px;background:url(images/vipSuning.png) no-repeat;overflow:hidden;}
+.left-intro-box .app-download li .icon-android{background-position:-24px -60px;}
+.left-intro-box .app-download li .icon-iphone{background-position:-85px -60px;}
+.left-intro-box .app-download li .icon-win8{background-position:-24px -111px;}
+.left-intro-box .app-download li .icon-pc{background-position:-85px -111px;}
+.left-intro-box .app-download li .txt{color:#fff;}
+.left-intro-box .app-download li a:hover .txt{color:#f60;}
+/* 二级页面-商品列表-普通列表 */
+.product-list{float:right;width:755px;}
+.product-list-horizon{float:none;width:100%;}
+.product-list-hd{position:relative;height:51px;margin-top:50px;background:#fa0;}
+.product-list-hd-first{margin-top:0;}
+.product-list-horizon .product-list-hd .floor-icon{margin-left:365px;}
+.product-list-hd .floor-icon{position:relative;float:left;width:100px;height:60px;margin:-10px -12px 0 -10px;_display:none;overflow:hidden;}
+.product-list-hd .floor-icon img{display:block;width:100px;height:60px;}
+.product-list-hd .floor-icon img.err-product{background:none;}
+.product-list-hd .floor-title{display:inline;float:left;width:200px;height:51px;margin-left:20px;color:#f8f8f8;font:16px/51px 'microsoft yahei';overflow:hidden;}
+.product-list-horizon .product-list-hd .floor-icon.floor-title{_margin-left:472px;}
+.product-list-hd .floor-title b{font-size:24px;}
+.product-list-hd .floor-sort{position:absolute;right:0;}
+.product-list-hd .floor-sort li{position:relative;float:left;width:100px;height:50px;line-height:50px;text-align:center;}
+.product-list-hd .floor-sort li.on{background:#f80;}
+.product-list-hd .floor-sort li a{display:block;width:100px;height:50px;color:#f8f8f8;cursor:pointer;}
+.product-list-hd .floor-sort li a:hover{text-decoration:none;}
+.product-list-hd .floor-sort li span{padding-right:20px;}
+.product-list-hd .floor-sort li .arrow{position:absolute;top:20px;right:34px;width:9px;height:12px;margin-left:5px;background:url(images/vipSuning.png) -12px 0;vertical-align:middle;overflow:hidden;}
+.product-list-hd .floor-sort li .arrow-up{background-position:-32px 0;}
+.product-list-hd .floor-sort li .arrow-down{background-position:-22px 0;}
+.product-list-box{position:relative;width:755px;overflow:hidden;}
+.product-list-horizon .product-list-box{width:990px;}
+.product-list-box .pro-item{width:760px;background:#fff;zoom:1;}
+.product-list-horizon .product-list-box .pro-item{width:1000px;margin-right:-10px;}
+.product-list-box .pro-item:after{display:block;content:'.';height:0;clear:both;visibility:hidden;}
+.product-list-box .pro-item li{float:left;width:188px;height:240px;border-right:1px solid #eee;border-bottom:1px solid #eee;overflow:hidden;}
+.product-list-horizon .product-list-box .pro-item li{width:198px;}
+.product-list-box .pro-item li .face{position:relative;height:160px;margin-top:5px;overflow:hidden;}
+.product-list-box .pro-item li .face img{display:block;position:absolute;right:-16px;width:160px;height:160px;}
+.product-list-box .pro-item li .name{width:150px;height:16px;margin-top:6px;margin-left:20px;overflow:hidden;}
+.product-list-box .pro-item li .price{height:26px;margin-top:1px;margin-left:20px;color:#999;overflow:hidden;}
+.product-list-box .pro-item li .price b{float:left;color:#f60;font-size:20px;font-family:'Microsoft YaHei';}
+.product-list-box .pro-item li .price em{float:left;padding:0 3px;line-height:32px;}
+.product-list-box .pro-item li .price i{float:left;padding:0 3px;line-height:30px;}
+.product-list-box .pro-item li .price span{float:left;color:#f60;font-size:14px;font-family:Microsoft YaHei;line-height:33px;}
+.product-list-box .pro-item li .old-price{height:20px;padding:0 20px;color:#999;line-height:20px;font-family:tahoma;overflow:hidden;}
+.product-list-box .pro-item li .old-price i{font-family:arial;}
+/* 二级页面-商品列表-横栏列表 */
+.product-list-box .pro-item-horizon{padding:0 20px;background:#fff;overflow:hidden;}
+.product-list-box .pro-item-horizon li{position:relative;margin-top:-1px;padding-bottom:20px;border-top:1px solid #e0e0e0;zoom:1;}
+.product-list-box .pro-item-horizon li:after{display:block;content:'.';height:0;clear:both;visibility:hidden;}
+.product-list-box .pro-item-horizon dt{float:left;width:185px;padding-top:18px;}
+.product-list-box .pro-item-horizon dt img{display:block;width:156px;height:220px;}
+.product-list-box .pro-item-horizon dd{position:relative;float:right;width:530px;overflow:hidden;}
+.product-list-box .pro-item-horizon dd .pro-score{position:absolute;top:15px;right:0;width:160px;}
+.product-list-box .pro-item-horizon dd .pro-score .name{float:left;}
+.product-list-box .pro-item-horizon dd .pro-score .score{float:left;width:70px;height:12px;margin-top:3px;background:url(images/vipSuning.png) -24px -47px no-repeat;overflow:hidden;}
+.product-list-box .pro-item-horizon dd .pro-score .score i{float:left;width:0;height:12px;background:url(images/vipSuning.png) -24px -34px no-repeat;overflow:hidden;}
+.product-list-box .pro-item-horizon dd .pro-score .score-num{float:left;padding-left:10px;color:#f00;}
+.product-list-box .pro-item-horizon dd h3{width:360px;margin-bottom:-4px;padding-top:12px;color:#7f5b20;font:20px/1.5 'microsoft yahei';}
+.product-list-box .pro-item-horizon dd h3 a{color:#7f5b20;font:20px/1.5 'microsoft yahei';}
+.product-list-box .pro-item-horizon dd .item{margin-top:6px;zoom:1;}
+.product-list-box .pro-item-horizon dd .item-price{margin-top:12px;}
+.product-list-box .pro-item-horizon dd .item:after{display:block;content:'.';height:0;clear:both;visibility:hidden;}
+.product-list-box .pro-item-horizon dd .attr{float:left;color:#666;font-family:simsun;}
+.product-list-box .pro-item-horizon dd .item-price .attr{margin-top:12px;}
+.product-list-box .pro-item-horizon dd .val{color:#000;overflow:hidden;_float:left;*width:400px;}
+.product-list-box .pro-item-horizon dd .price b{float:left;color:#f60;font:bold 24px/1.5 'microsoft yahei';}
+.product-list-box .pro-item-horizon dd .price em{float:left;margin-top:12px;color:#f60;}
+.product-list-box .pro-item-horizon dd .opts{margin-top:2px;}
+.product-list-box .pro-item-horizon dd .opts .btn-buy-immediately{display:inline;float:left;height:40px;margin-right:20px;padding:0 18px;background:#f60;color:#fff;font:bold 20px/40px 'microsoft yahei';cursor:pointer;overflow:hidden;}
+.product-list-box .pro-item-horizon dd .opts .btn-buy-immediately:hover{background:#f90;}
+/* 二级页面-商品列表加载更多 */
+.product-list-box .prolist-opts{height:50px;background:#fff;text-align:center;overflow:hidden;}
+.product-list-box .prolist-opts a{display:block;height:50px;cursor:pointer;}
+.product-list-box .prolist-opts a:hover{text-decoration:none;}
+.product-list-box .prolist-opts .text{display:inline-block;font:18px/50px 'microsoft yahei';vertical-align:middle;}
+.product-list-box .prolist-opts .text-tip{color:#666;}
+.product-list-box .prolist-opts i{margin-left:5px;vertical-align:middle;}
+.product-list-box .prolist-opts i.icon-more{display:inline-block;width:20px;height:13px;margin-top:2px;_margin-top:0;background:url(images/vipSuning.png) -42px 0 no-repeat;overflow:hidden;}
+/* 二级页面-banner */
+.vip-banner{position:relative;z-index:5;width:990px;height:320px;margin-bottom:20px;overflow:hidden;}
+.vip-banner .main li{display:none;position:absolute;top:0;left:0;float:left;width:990px;height:320px;}
+.vip-banner .main li a,.vip-banner .main li img{display:block;}
+.vip-banner-pager{position:absolute;top:282px;left:50%;width:150px;height:16px;margin-left:-55px;}
+.vip-banner-pager .pager{position:absolute;z-index:20;top:0;left:0;width:150px;height:16px;}
+.vip-banner-pager .pager li{display:inline;float:left;width:16px;height:16px;margin-right:6px;background:url(images/vipSuning.png) -41px -17px;cursor:pointer;overflow:hidden;}
+.vip-banner-pager .pager li.current{background-position:-24px -17px;}
+/* 电影明星二级-视频TAB */
+.movie-video{height:490px;margin-bottom:20px;padding-top:20px;background:#c3def8;}
+.movie-video .movie-video-box{display:inline;float:left;width:627px;height:471px;margin-left:30px;}
+.movie-video .movie-video-box .video-box{display:none;}
+.movie-video .movie-video-tab{display:inline;position:relative;float:right;width:293px;height:470px;margin-right:30px;overflow:hidden;}
+.movie-video .movie-video-tab .slider{position:absolute;top:0;left:0;width:23px;height:150px;background:url(images/vipSuning.png) 0 -17px no-repeat;}
+.movie-video .movie-video-tab .video-tab{float:right;width:270px;height:470px;overflow:hidden;}
+.movie-video .movie-video-tab .video-tab li{position:relative;height:150px;margin-bottom:10px;font-size:0;cursor:pointer;overflow:hidden;}
+.movie-video .movie-video-tab .video-tab li img{display:block;width:270px;height:150px;}
+.movie-video .movie-video-tab .video-tab li .name{position:absolute;bottom:0;width:270px;height:30px;}
+.movie-video .movie-video-tab .video-tab li .name .bg{position:absolute;z-index:0;width:270px;height:30px;background:#000;opacity:.85;filter:alpha(opacity=85);}
+.movie-video .movie-video-tab .video-tab li .name .txt{position:absolute;z-index:1;width:270px;height:30px;color:#fff;font:14px/30px 'microsoft yahei';}
+.movie-video .movie-video-tab .video-tab li .name .txt span{display:inline;float:left;width:200px;margin-left:20px;margin-right:4px;overflow:hidden;}
+.movie-video .movie-video-tab .video-tab li .name .txt i{float:left;width:17px;height:17px;margin-top:6px;background:url(images/vipSuning.png) -58px -17px;overflow:hidden;}
+/* 音乐现场二级-推荐 */
+.music-recmd{width:990px;height:180px;margin-top:-10px;margin-bottom:20px;}
+.music-recmd ul{width:1000px;margin-right:-10px;}
+.music-recmd ul li{float:left;width:332px;height:180px;overflow:hidden;}
+.music-recmd ul li img{display:block;width:325px;height:180px;}
+/* 游戏乐透二级-推荐 */
+.game-recmd{width:990px;height:320px;margin-top:10px;margin-bottom:20px;}
+.game-recmd ul{width:1000px;margin-right:-10px;}
+.game-recmd ul li{float:left;width:500px;height:320px;overflow:hidden;}
+.game-recmd ul li img{display:block;width:490px;height:320px;}
+/* 右侧主要内容区域 */
+.main-wrap{float:right;width:755px;margin-bottom:50px;}
+/* 面包屑导航 */
+.vip-crumbs{height:51px;padding-left:20px;background:#fa0;line-height:51px;color:#f8f8f8;}
+.vip-crumbs h3{font:bold 24px/51px 'microsofr yahei';}
+.vip-crumbs a{float:left;color:#f8f8f8;font-size:18px;}
+.vip-crumbs .arrow{float:left;margin:0 5px;color:#f8f8f8;font-size:18px;}
+.vip-crumbs .now{float:left;font-size:18px;}
+
+/* 返回顶部 */
+.go-top{display:none;position:fixed;left:50%;bottom:100px;margin-left:505px;width:40px;height:40px;_position:absolute;_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - 100));}
+.go-top a{display:block;width:40px;height:40px;background:#fff;cursor:pointer;overflow:hidden;}
+.go-top a:hover{background:#f90;}
+.go-top a i{display:block;width:21px;height:14px;margin-top:13px;margin-left:10px;background:url(images/vipSuning.png) -64px 0;overflow:hidden;}
+.go-top a:hover i{background-position:-86px 0;}
+/* 赚取云钻 */
+.vip-earnmore{width:755px;overflow:hidden;}
+.vip-earnmore .earnmore{width:760px;margin-right:-5px;}
+.vip-earnmore .earnmore li{float:left;width:251px;height:251px;border-right:1px solid #f3f3f3;border-bottom:1px solid #f3f3f3;}
+.vip-earnmore .earnmore li img{display:block;width:251px;height:251px;}
+/* 招商 */
+.zhaoshang-main{position:relative;width:755px;padding-bottom:30px;background:#fff;}
+.zhaoshang-main .banner{height:320px;}
+.zhaoshang-main .banner img{display:block;width:755px;height:320px;}
+.zhaoshang-main .enroll{margin:22px 40px 25px;padding:10px 25px 5px;background:#f6f6f6;}
+.zhaoshang-main .enroll p{padding-bottom:8px;font:14px/1.5 'microsoft yahei';}
+.zhaoshang-main .enroll p b{color:#f60;font-size:18px;}
+.zhaoshang-intro{margin:0 40px;}
+.zhaoshang-intro-hd{height:40px;}
+.zhaoshang-intro-hd h4{float:left;width:150px;height:27px;font:bold 18px/1.5 'microsoft yahei';overflow:hidden;}
+.zhaoshang-intro-hd h4 i{float:left;width:4px;height:18px;margin-top:5px;margin-right:20px;background:#fa0;overflow:hidden;}
+.zhaoshang-intro-box p{position:relative;margin-bottom:18px;line-height:1.8;padding-left:2em;}
+.zhaoshang-intro-box p i{position:absolute;top:3px;*top:0;left:0;_left:-24px;width:14px;height:14px;background:#f60;line-height:14px;text-align:center;text-indent:0;color:#fff;font-size:14px;overflow:hidden;}
+.zhaoshang-intro-box p b{color:#f60;}
+/* 404 */
+.not-find-page{position:relative;height:320px;margin-bottom:10px;background:#fff;}
+.not-find-page .icon{position:absolute;left:298px;top:92px;width:112px;height:136px;background:url(images/vipSuning.png) -146px 0;}
+.not-find-page .main{margin-left:432px;padding-top:96px;}
+.not-find-page .main h4{margin-bottom:16px;font:bold 18px/1.5 'microsoft yahei';}
+.not-find-page .main p{margin-top:6px;color:#666;}
+.not-find-page .main p a{color:#236ff1;}
+.not-find-page .main p a:hover{color:#f60;text-decoration:underline;}
+/* old 404 */
+.errorMessageShow{width:988px;height:350px;margin:0px auto 10px auto;background:#fff;color:#666666;border:1px solid #e9e9e9;}
+.errorMessageShow span{position:relative;display:block;width:280px;height:105px;margin:24px auto 18px auto;background:url(images/404noSearchPageMainBg.gif) no-repeat 18px 0px;}
+.errorMessageShow span .msg{position:absolute;top:84px;left:-300px;width:870px;text-align:center;color:#FF6600;font-size:16px;}
+.errorMessageShow p{display:block;width:422px;height:35px;margin:0px auto;}
+.errorMessageShow a.backIndex{display:block;width:113px;height:30px;margin:20px auto 48px auto;background:url(images/404noSearchPageMainBg.gif) no-repeat 0px -122px;}
+.errorMessageShow dl{width:375px;height:65px;margin:0px auto;}
+.errorMessageShow dl dt{float:left;width:52px;height:65px;padding-top:1px;color:#ff6501;font-weight:bold;}
+.errorMessageShow dl dd{float:left;width:310px;}
+.errorMessageShow dl dd a{margin:0px 10px;color:#0072d2;text-decoration:underline;}
+.errorMessageShow dl dd a.firtLink{margin-left:0px;}
+.errorMessageShow dl dd a:hover{color:#F60;text-decoration:underline;}
+
+/*2014-09-15 新增样式：二级页面-商品列表-普通列表 价格范围*/
+.product-list-hd{z-index: 10;}
+.product-list-box{z-index: 9;}
+.product-list-hd .floor-sort{position:absolute;right:0px; _right: -1px;}
+
+.product-list-hd .floor-sort .floor-range{width: 224px; height: 50px; color: #fff; overflow: hidden; }
+.product-list-hd .floor-sort .height88{height: 88px; }
+.product-list-hd .range-hover{ width: 222px; height: 86px; background: #fff; border: 1px solid #ff8800; color: #333; position: relative; z-index: 11;}
+.floor-range .rg{ width: 100%; height: 50px; line-height: 50px; _height:38px; _padding-top: 12px;}
+.product-list-hd .floor-sort .floor-range .txt{ padding: 0px;}
+.floor-range i{ padding: 0px 8px;}
+.floor-range .range{ width: 68px; height: 18px; padding: 2px; background: #ffd580; border:1px solid #ffd580; color: #ff8800; *vertical-align: middle;}
+.floor-range .focus1{ background: #fff; border:1px solid #ccc; color: #333;}
+.floor-range .focus2{ background: #fff; border:1px solid #4b88f3; color: #333;}
+.floor-range .btn-range{ width: 168px; height: 26px; line-height: 26px; float: left; margin-left: 45px; background: #4b88f3;  color: #fff; border: none; cursor: pointer;}
+.floor-range .btnrange{ width: 100%; height: 36px; line-height: 36px; }
+
+/*2014-09-15 新增样式：二级页面-商品列表 无商品报错*/
+.error-noprod{ width: 755px; height: 230px; padding-top: 20px; background: #fff;}
+.error-noprod .nopd{ width: 460px; height: 220px; margin: 0px auto;  background: url(images/error-noprod.png) no-repeat top left; _background: url(images/error-noprod.jpg) no-repeat top left;}
+.error-noprod .tip{ padding-top: 85px; padding-left: 165px; color: #666;}
+.error-noprod .tip span{ font-size: 14px; font-weight: bold;}
+.error-noprod .btn{ padding-left: 165px;}
+.error-noprod .btn-back{ background: url(images/btn-back.png); width: 105px; height: 36px; border: none; cursor: pointer; margin-top: 10px; }
+
+/*2014-09-15 新增样式：earn.html 左侧背景填充*/
+.fillbg{ width: 215px; float: left; margin-top: 54px; background: #fff; opacity: 0.7;filter:alpha(opacity=70); }
+
+/*2014-09-15 修改样式：earn.html 右侧背景填充*/
+.vip-earnmore .earnmore{ background: #fff; min-height: 504px; _height:504px; _overflow: visible}
+.vip-earnmore{margin-bottom:50px;}
+
+/*2014-09-15 修改样式 二级 左侧列表*/
+.left-side-mt{margin-top:0px; padding-top: 0px;  }
+.left-menu .menu-item{ background: none; }
+.left-menu .menu-item li a{ color:#333;font:14px/40px 'microsoft yahei';}
+.left-menu-book .menu-item li, .left-menu-zhaoshang .menu-item li{height:auto;border-bottom:1px solid #eee;zoom:1;}
+.left-menu .menu-item li{border-bottom:1px solid #eee;}
+.left-side-mt-fixed{top:103px;}
+.left-menu .menu-item li i{display:none;position:absolute;top:11px;right:20px;width:11px;height:17px;background:url(images/arrow-next.png) 0 0 no-repeat;overflow:hidden;}
+.filllayer{float:left;width:215px; position: relative; margin-top: 54px;}
+.filllayer .layer{ position: absolute; top: 0px; left: 0px; width: 215px;  background: #fff; opacity: 0.9; filter:alpha(opacity=90); *z-index: -1; }
+

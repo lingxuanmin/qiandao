@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8"/>
+	    <title>苏宁会员联盟_打卡记录 - 苏宁易购</title>
+	    <meta name="keywords" content="苏宁会员联盟,会员等级,会员中心,云钻兑换,优惠券,促销活动"/>
+	    <meta name="description" content="苏宁会员等级频道,详细介绍会员成长进度,升级方法,权益与等级,上苏宁会员联盟,给你全新的价值体验！"/>
+	    <script>
+	        var sn = sn || {}
+	    </script>
+	    
+	    <!-- 引入全站公用资源文件 -->
+	    <!--#include file="/include/resources.shtml"-->
+
+	    <!-- build:css ./assets/css/vipcommon.css -->
+	    <link rel="stylesheet" href="css/vipcommon.scss" />
+	    <!-- endbuild -->
+
+	    <!-- build:css ./assets/css/vipSuning.css -->
+	    <link rel="stylesheet" href="css/vipSuning.scss" />
+	    <!-- endbuild -->
+	    <!-- build:css ./assets/css/vipNew.css -->
+	    <link rel="stylesheet" href="css/vipNew.scss" />
+	    <!-- endbuild -->
+
+	</head>
+	<body>
+	 	<div class="vip-wrapper wrapper-bottom"><!--底层背景-->
+        	<div class="vip-wrapper wrapper-up"><!--上层背景-->
+			 <!--云钻头部[[-->
+	            <!--#include virtual="_header.html"-->
+	            <!--]]云钻头部-->
+			<!-- 会员打卡日历 -->
+			
+				<!-- 二级页-积分换购 [[ -->
+	            <div class="second-wrapper clearfix">
+	              	<div class="product-list">
+	                    <!-- 面包屑 [[ -->
+	                    <div class="product-list-hd product-list-hd-first">
+	                        <h3 class="member-title">
+	                            <span>首页</span><i>&gt;</i><em>打卡记录</em>
+	                        </h3>
+	                    </div>
+	                </div>
+
+	                <!--打卡记录页面正文 -->
+					<div class="sign-wrapper clearfix">
+						<div class="sign-title">
+							<i></i>
+							<span>打卡总收入</span>
+						</div>
+
+						<div class="achievement clearfix">
+							<p class="ach-msg">您已打卡<span class="sign-days">365</span>天，共获得</p>
+							<p class="achieve-item">云钻：<span class="sign-num">2670</span></p>
+							<p class="achieve-item">红包券：<span class="sign-num">50</span> 元</p>
+							<P class="achieve-item">虚拟券：<span class="sign-num sign-num-black">10</span>张</P>
+							<p class="achieve-item">实物礼品：<span class="sign-num sign-num-black">1</span></p>	
+
+							<!-- 下拉框 -->
+							<select class="sign-month-select">
+								
+							</select>
+						</div>
+						<!-- 打卡日历开始[[-->
+						<div class="sign-calendar" id="dataPicker"> </div>
+						<!--打卡日历end]] -->
+						
+					</div>
+	          
+					
+				</div>
+			</div>
+		</div>
+		
+		<!-- 引入项目js资源文件,并配置构建地址演示 -->
+		<!-- build:js ./assets/js/home.js -->
+	    <script type="text/javascript" src="js/home.js"></script>
+	    <!-- endbuild -->
+	    <!-- build:js ./assets/js/vipSuning.js -->
+	    <script type="text/javascript" src="js/vipSuning.js"></script>
+	    <!-- endbuild -->
+        <!-- build:js ./assets/js/me.base.js -->
+	    <script type="text/javascript" src="js/me.base.js"></script>
+	    <!-- endbuild -->
+	    <!-- build:js ./assets/js/signCalendar.js -->
+	    <script type="text/javascript" src="js/signCalendar.js"></script>
+	    <!-- endbuild -->
+	</body>
+
+</html>
